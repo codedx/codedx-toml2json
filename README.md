@@ -12,17 +12,17 @@ to convert the following request.toml file:
 
 ```
 [context]
-target = ''                                   # the URL where the scan starts
+target = ''              # the URL where the scan starts
 
 [scanOptions]
-runActiveScan = false                         # the decision to run an active scan (when true)
+runActiveScan = false    # the decision to run an active scan (when true)
 
 [reportOptions]
-minRiskThreshold = 0                          # the minimum risk code for report findings
-minConfThreshold = 0                          # the minimum confidence for report findings
+minRiskThreshold = 0     # the minimum risk code for report findings
+minConfThreshold = 0     # the minimum confidence for report findings
 
 [authentication]
-type = "none"                                 # the authentication type: none, formAuthentication, or scriptAuthentication
+type = "none"            # the authentication type: none, formAuthentication, or scriptAuthentication
 ```
 
 to the following JSON in request.json:
